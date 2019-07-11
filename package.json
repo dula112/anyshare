@@ -1,0 +1,18 @@
+{
+    "devDependencies": {
+        "@types/node": "^10.12.10",
+        "@types/node-fetch": "^2.3.5",
+        "@types/thrift": "^0.10.7",
+        "commander": "^2.20.0",
+        "cross-spawn": "^6.0.5",
+        "gulp": "^4.0.2",
+        "lodash": "^4.17.11",
+        "node-fetch": "^2.6.0",
+        "testcafe": "^1.1.2",
+        "thrift": "^0.12.0",
+        "ts-node": "^8.1.0"
+    },
+    "scripts": {
+        "test": "ts-node --ignore \"node_modules/(?!@anyshare)\" ./scripts/test-script.ts"
+    }
+}
